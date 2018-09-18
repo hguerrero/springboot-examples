@@ -21,4 +21,9 @@ public class JwtController {
 		}
 		return output;
 	}
+	
+	@RequestMapping("/hello")
+	public String hello() {
+		return "hello world";
+	}
 }
